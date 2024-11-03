@@ -342,7 +342,6 @@
 .footer__columns {
   display: flex;
   justify-content: space-between;
-  gap: 80px;
 }
 
 .footer__column_content_hours {
@@ -354,7 +353,7 @@
 .footer__column_content_social {
   display: flex;
   flex-direction: column;
-  margin-left: 0;
+  margin-left: 80px;
 }
 
 .footer__logo {
@@ -380,8 +379,8 @@
   color: white;
   text-decoration: none;
   display: flex;
-  column-gap: 16px;
-  align-items: flex-end;
+  column-gap: 10px;
+  align-items: center;
 }
 
 .footer__social-icon {
