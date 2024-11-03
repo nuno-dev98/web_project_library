@@ -309,7 +309,7 @@
 
 .step {
   max-width: 200px;
-  flex-basis: 200px;
+  flex-basis: 220px;
   flex-grow: 1;
 }
 
@@ -332,7 +332,7 @@
 
 .footer {
   box-sizing: border-box;
-  background-color: black;
+  background-color: #1f1f1f;
   color: white;
   display: flex;
   flex-direction: column;
@@ -354,6 +354,7 @@
 .footer__column_content_social {
   display: flex;
   flex-direction: column;
+  margin-left: 0;
 }
 
 .footer__logo {
@@ -378,6 +379,9 @@
 .footer__column-link {
   color: white;
   text-decoration: none;
+  display: flex;
+  column-gap: 16px;
+  align-items: flex-end;
 }
 
 .footer__social-icon {
