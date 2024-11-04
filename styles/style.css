@@ -362,7 +362,7 @@
 }
 
 .footer__column-heading {
-  margin-bottom: 20px;
+  margin: 0 auto 20px;
 }
 
 .footer__list {
@@ -386,7 +386,6 @@
 .footer__social-icon {
   height: 16px;
   width: 16px;
-  margin-right: 10px;
 }
 
 .footer__copyright {
